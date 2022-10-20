@@ -30,7 +30,8 @@ import java.util.ArrayList;
         menuList.add("плов ");
         menuList.add("курица в кислом слатком соусе ");
         menuList.add("рыба на жаровне ");
-        
+        menuList.add("рыба на жаровне ");
+
         MenuAdaptor adaptor = new MenuAdaptor(menuList);
         recyclerView.setAdapter(adaptor);
     }
